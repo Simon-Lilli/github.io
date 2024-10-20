@@ -1,0 +1,95 @@
+﻿
+
+.aa { 
+overflow-x: hidden;
+overflow-y: scroll;
+position: relative;
+top: -1px;
+transition: overflow 1ms;
+}
+
+.anfangspoiler {
+background: rgb(255,255,255);
+background: -moz-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(111,48,116,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(111,48,116,1) 100%);
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(111,48,116,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#6f3074",GradientType=1);
+height: 100vh;
+width: 100vw;
+position: absolute;
+transition: opacity 2s;
+opacity: 1;
+
+
+}
+.anfangspoiler.hidden {
+    opacity: -1;
+    z-index: -5;
+}
+
+#h2 {
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    
+}
+.antwort {
+  font-size: 21;
+}
+.frage {
+  
+    font-size: 21 ;
+    
+}
+.frage2 {
+  
+    font-size: 21 ;
+}
+.inputs {
+    border: 0px solid black;
+    border-bottom: 1px solid black; 
+    font-size: 21;
+
+}
+.label {
+    border: 0px solid black;
+    border-bottom: 1px solid black; 
+    font-size: 21;
+
+}
+.hintergr {
+position:absolute;
+top: 0px;
+left: 0px;
+width: 100vw;
+background-repeat:repeat-y;
+background-position: left;
+z-index: -1;
+}
+#map {
+    border: black solid 3px;  
+    box-shadow: 20px 20px 19px rgb(72, 95, 72);
+
+}
+.testtt {
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 22px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 50px;
+    
+}
+.testttt {
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 22px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+body {
+    background-image: url(aaa.jpg);
+    background-repeat: repeat-y;
+    background-size: 100vw;
+}
